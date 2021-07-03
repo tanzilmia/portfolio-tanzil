@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- =============FONT AWESOME LING GOSE TO HERE============== -->
+     <!-- <script src="https://kit.fontawesome.com/a75bfe105f.js" crossorigin="anonymous"></script> -->
+
+
+     <!-- =========icons cut website link============ -->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+     <!-- =========swipper js link goes to here ============ -->
+
+     <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- ============css link gose to here=========== -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tanzil Portfolio</title>
+</head>
+<body>
+    
+    <!-- =============Header section========== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+          <a href="#" class="nav__logo">Tanzil Portfolio</a>
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list grid">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">
+                        <i class="uil uil-estate nav__icon"></i> Home
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">
+                        <i class="uil uil-user nav__icon"></i> About
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">
+                        <i class="uil uil-file-alt nav__icon"></i> skills
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">
+                        <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#portfolio" class="nav__link">
+                        <i class="uil uil-scenery nav__icon"></i> Portfolio
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">
+                        <i class="uil uil-message nav__icon"></i> Contact
+                    </a>
+                </li>
+            </ul>
+
+            <i class="uil uil-times nav__close" id="nav-close"></i>
+          </div>
+          <div class="nav_btns">
+
+            <!-- =====change thims====== -->
+
+            <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+              <div class="nav__toggle" id="nav-toggle">
+                <i class="uil uil-apps"></i>
+              </div>
+          </div>
+        </nav>
+    </header>
+
+    <!-- ====Home section ==== -->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+          <div class="home__content grid">
+              <div class="home__social">
+                  <a href="https://www.linkedin.com/in/md-tanzil-252451200/" target="_blank" class="home__social-icon">
+                    <i class="uil uil-linkedin-alt"></i>
+                  </a>
+                  <a href="https://www.instagram.com/mia.tanzil/" target="_blank"  class="home__social-icon">
+                    <i class="uil uil-instagram"></i>
+                </a> 
+                <a href="https://github.com/tanzilmia" target="_blank"  class="home__social-icon">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+              </div>
+              <!-- img section with my pic -->
+              <div class="home__img">
+                <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                    </mask>
+                    <g mask="url(#mask0)"> 
+                        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                        <image class="home__blob-img" x='12' y='18' xlink:href="img/perfil.png"/>
+                    </g>
+                </svg>
+              </div>
+              <div class="home__data">
+                  <h1 class="home__title">Hi, I'am Tanzil</h1>
+                  <h3 class="home__subtitle">Forntend Developer</h3>
+                  <p class="home__desscription">
+                      High level experience in web design and knowledge, producing quality work
+                  </p>
+                    <a href="#" class="button button--flex">
+                        Contact Me<i class="uil uil-message button__icons"></i>
+                    </a>
+              </div>
+          </div>
+          <div class="home__scroll">
+              <a href="#about" class="home__scroll-button button--flex">
+                <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                <span class="home__scroll-name">Scroll Down</span>
+                <i class="uil uil-angle-double-down home__scroll-arrow"></i>
+              </a>
+          </div>
+      </div>
+    </section>
+
+    <!-- about section  -->
+
+    <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My Introduction</span>
+
+        <!-- about container -->
+        <div class="about__container container grid">
+            <img src="img/about.jpg" class="about-img" alt="">
+              <!-- about data -->
+        <div class="about-data">
+            <p class="about__description">
+                web developer, with extensive knowledge and 3 years of experience, working in web technologies and ui / ux design, deliverig quality work
+            </p>
+            <div class="about__info">
+                <div>
+                    <span class="about__info-title">02+</span>
+                    <span class="about__info-name">Years <br>experience</span>
+                </div>
+                <div>
+                    <span class="about__info-title">20+</span>
+                    <span class="about__info-name">Completed <br>Project</span>
+                </div>
+                <div>
+                    <span class="about__info-title">05+</span>
+                    <span class="about__info-name">Companies <br>Worked</span>
+                </div>
+            </div>
+            <div class="about__buttons">
+                <a download="" href="#" class="button button--flex">
+                  Download Cv  <i class="uil uil-folder-download button__icons"></i>
+                </a>
+            </div>
+        </div>
+        </div>
+
+      
+    </section>
+
+    <!-- skills section  -->
+
+    <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My Skills level</span>
+        <div class="skills__container container grid">
+            <div>
+                <!-- progress -->
+                <div class="skills__content">
+                    <div class="skills__header">
+                        <i class="uil uil-brackets-curly skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">FrontEnd developer</h1>
+                            <span class="skills__subtitle">More Then 3 Years</span>
+                        </div>
+                        <i class="uil uil-arrow-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills__number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__html"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__css"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Javascript</h3>
+                                <span class="skills__number">50%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__js"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">React</h3>
+                                <span class="skills__number">75%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__react"></span>
+                            </div>
+
+                            
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">J-Query</h3>
+                                <span class="skills__number">85%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__jquery"></span>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- skils tow -->
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- qualifiqation  -->
+    <section class="qualification__sections">
+        <h2 class="section__title qualification__tanzil">My Qualification</h2>
+        <span class="section__subtitle">My Personal Journey</span>
+        <div class="qualification__container container">
+            <div class="qualification__tabs">
+                <div class="qualification__button button--flex qualification__active" data-target="#education">
+                    <i class="uil uil-graduation-cap qualification__icon"></i>
+                    Education
+                </div>
+            </div>
+            <div class="qualificaton__sections">
+                <!-- ==========qualification section one ======== -->
+                <div class="qualification__content qualifications__active data-content id="education">
+                    <!-- ===========qualification one -->
+                    <div class="qualification___data">
+                        <div>
+                            <h3 class="qualification__title">Web Design</h3>
+                            <span class="qualification__subtitle">
+                                Tangail - Polytechnic Institute
+                            </span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2016 - 2018
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+                    <div class="qualification___data">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">UI / UX Design</h3>
+                            <span class="qualification__subtitle">
+                                Milkway - Software Company
+                            </span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2014 - 2016
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="qualification___data">
+                        <div>
+                            <h3 class="qualification__title">Frontend Devolopment</h3>
+                            <span class="qualification__subtitle">
+                                Tangail - Polytechnic Institute
+                            </span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2018 - 2020
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+
+                    <div class="qualification___data">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">Master in UI / UX</h3>
+                            <span class="qualification__subtitle">
+                                Milkway - Software Company
+                            </span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2016 - 2020
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- ===========qualification content============ -->
+               
+            </div>
+        </div>
+        <!-- section tow -->
+
+        <div class="qualification__container container">
+            <div class="qualification__tabs">
+
+                <div class="qualification__button button--flex worksection" data-target="#work">
+                    <i class="uil uil-briefcase-alt qualification__icon"></i>
+                    work
+                    
+                </div>
+            </div>
+            <div class="qualificaton__sections">
+                <!-- ===========work section ======== -->
+            
+
+                <!-- ===========qualification content============ -->
+                <div class="qualification__content data-content id="work">
+                    <!-- ===========qualification one -->
+                    <div class="qualification___data">
+                        <div>
+                            <h3 class="qualification__title">UI / UX Designer</h3>
+                            <span class="qualification__subtitle">
+                                Milkway - Software Company
+                            </span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2020 - Present
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+                    <div class="qualification___data">
+                        <div></div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__title">FrontEnd Developer</h3>
+                            <span class="qualification__subtitle">
+                                Creative - IT soft.
+                            </span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2019 - Present
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="qualification___data">
+                        <div>
+                            <h3 class="qualification__title">UI Designer</h3>
+                            <span class="qualification__subtitle">
+                                Milkway - Software Company
+                            </span>
+                            <div class="qualification__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2019 - 2020
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <!-- <span class="qualification__line"></span> -->
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- services section  -->
+
+<section class="servies section" id="services">
+    <h2 class="section__title">Services</h2>
+    <span class="section__subtitle">What i offer</span>
+    <div class="services__container container grid">
+        <!-- services one -->
+        <div class="services__content">
+            <div>
+                <i class="uil uil-web-grid services__icon"></i>
+                <h3 class="services__title">Ui / Ux <br>Designer</h3>
+            </div>
+            <span class="button button--flex button--small button--link services__button">
+                View More
+                <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+            <!-- services model -->
+            <div class="services__model">
+                <div class="services__model-content">
+                    <h4 class="services__model-title">Ui/Ux <br>Designer</h4>
+                    <i class="uil uil-times services__model-close"></i>
+
+                    <ul class="services__model-services grid">
+                        <li class="services__model-service">
+                            <i class="uil uil-clock-ten services__model-icon"></i>
+                            <p>I develop the User Interface.</p>
+                        </li>
+                        <li class="services__model-service">
+                            <i class="uil uil-clock-ten services__model-icon"></i>
+                            <p>Web page Development.</p>
+                        </li>
+                        <li class="services__model-service">
+                            <i class="uil uil-clock-ten services__model-icon"></i>
+                            <p>I create ux element interactions.</p>
+                        </li>
+                        <li class="services__model-service">
+                            <i class="uil uil-clock-ten services__model-icon"></i>
+                            <p>I position your company brand.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- service tow -->
+        <div class="services__content">
+            <div>
+                <i class="uil uil-brackets-curly services__icon"></i>
+                <h3 class="services__title">FrontEnd <br>Developer</h3>
+            </div>
+            <span class="button button--flex button--small button--link services__button">
+                View More
+                <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+            <!-- services model -->
+            <div class="services__model">
+                <div class="services__model-content">
+                    <h4 class="services__model-title">FrontEnd <br>Developer</h4>
+                    <i class="uil uil-times services__model-close"></i>
+
+                    <ul class="services__model-services grid">
+                        <li class="services__model-service">
+                            <i class="uil uil-clock-ten services__model-icon"></i>
+                            <p>I develop the User Interface.</p>
+                        </li>
+                        <li class="services__model-service">
+                            <i class="uil uil-clock-ten services__model-icon"></i>
+                            <p>Web page Development.</p>
+                        </li>
+                        <li class="services__model-service">
+                            <i class="uil uil-clock-ten services__model-icon"></i>
+                            <p>I create ux element interactions.</p>
+                        </li>
+                        <li class="services__model-service">
+                            <i class="uil uil-clock-ten services__model-icon"></i>
+                            <p>I position your company brand.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- services three -->
+        <div class="services__content">
+            <div>
+                <i class="uil uil-pen services__icon"></i>
+                
+                <h3 class="services__title">Branding <br>Designer</h3>
+            </div>
+            <span class="button button--flex button--small button--link services__button">
+                View More
+                <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+            <!-- services model -->
+            <div class="services__model">
+                <div class="services__model-content">
+                    <h4 class="services__model-title">Branding<br>Designer</h4>
+                    <i class="uil uil-times services__model-close"></i>
+
+                    <ul class="services__model-services grid">
+                        <li class="services__model-service">
+                            <i class="uil uil-clock-ten services__model-icon"></i>
+                            <p>I develop the User Interface.</p>
+                        </li>
+                        <li class="services__model-service">
+                            <i class="uil uil-clock-ten services__model-icon"></i>
+                            <p>Web page Development.</p>
+                        </li>
+                        <li class="services__model-service">
+                            <i class="uil uil-clock-ten services__model-icon"></i>
+                            <p>I create ux element interactions.</p>
+                        </li>
+                        <li class="services__model-service">
+                            <i class="uil uil-clock-ten services__model-icon"></i>
+                            <p>I position your company brand.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ======portfolio section ======== -->
+
+<section class="portfolio section" id="portfolio">
+    <h2 class="section__title">Portfolio</h2>
+    <span class="section__subtitle">Recently My Work</span>
+    <div class="portfolio__container container swiper-container">
+        <div class="swiper-wrapper">
+           <!-- portfolio one -->
+           <div class="portfolio__content grid swiper-slide">
+            <img src="img/portfolio1.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Mordern Website</h3>
+                <p class="portfolio__description">Website adaptable to all devices , with ui components and animated interactions</p>
+                <a href="#" class="button button--flex button--small portfolio__button">
+                  Demo  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
+           <!-- portfolio two -->
+           <div class="portfolio__content grid swiper-slide">
+            <img src="img/portfolio2.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Brand Design</h3>
+                <p class="portfolio__description">Website adaptable to all devices , with ui components and animated interactions</p>
+                <a href="#" class="button button--flex button--small portfolio__button">
+                  Demo  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
+           <!-- portfolio three -->
+           <div class="portfolio__content grid swiper-slide">
+            <img src="img/portfolio3.jpg" alt="" class="portfolio__img">
+
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Online Stor</h3>
+                <p class="portfolio__description">Website adaptable to all devices , with ui components and animated interactions</p>
+                <a href="#" class="button button--flex button--small portfolio__button">
+                  Demo  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+            </div>
+        </div>
+        </div>
+
+        <!-- add controller -->
+        <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        </div>
+        <!-- pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!-- =======Porjects in mind======= -->
+
+<section class="project section">
+  <div class="project__bg">
+      <div class="project__container container gird">
+          <div class="project__data">
+              <h2 class="project__title">You Have A New Project</h2>
+              <p class="project__descirption">
+                  Contact Me Now And Get A 30% Discount on your New Project.
+              </p>
+              <a href="#" class="button button--flex button--white">
+                  Contact Me 
+                  <i class="uil uil-message project__icon button__icons"></i>
+              </a>
+          </div>
+
+          <div class="projects__img-div">
+            <img src="img/project.png" alt="" class="project__img">
+          </div>
+      </div>
+  </div>
+</section>
+<!-- =======Testimonial section====== -->
+
+<section class="testimonial section">
+    <h2 class="section__title">Our Team</h2>
+    <span class="section__subtitle">We work in groups</span>
+    <div class="testimonial__container container swiper-container">
+        <div class="swiper-wrapper">
+            <!-- Team member 1 -->
+            <div class="testimonial__content swiper-slide">
+                <div class="testimonial__data">
+                    <div class="testimonial__header">
+                        <img src="img/testimonial1.jpg" alt="" class="testimonial__img">
+                        <div>
+                            <h3 class="testimonial__name">Mahbub Hassan</h3>
+                            <span class="testimonial__client">
+                                UI / UX Designer
+                            </span>
+
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+                <p class="testimonial__description">Hi, I'm Mahbub Hassan a UI / UX Designer. and also a Frontend developer. I have 3 Years of experience do many clients projects.  Now we are 3 friends working together, as a group. You can also check my personal portfolio site <br>
+                    ------ thankyou</p>
+
+                <div class="social__icons">
+                    <a href="https://www.facebook.com/MahbubHasan.real1"><i class="uil uil-facebook-f team__icons"></i></a>
+                    <a href="#" title="website"><i class="uil uil-globe team__icons"></i></a>
+                    <a href="#"><i class="uil uil-github team__icons"></i></a>
+                    <a href="#"><i class="uil uil-instagram team__icons"></i></a>
+                </div>
+            </div>
+            <!-- team member 2 -->
+            <div class="testimonial__content swiper-slide">
+                <div class="testimonial__data">
+                    <div class="testimonial__header">
+                        <img src="img/testimonial2.jpg" alt="" class="testimonial__img">
+                        <div>
+                            <h3 class="testimonial__name">Md Tanzil Mia</h3>
+                            <span class="testimonial__client">
+                                Frontend Developer
+                            </span>
+
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+                <p class="testimonial__description">Hi, I'm Tanzil a Frontend developer. and also a UI / UX Designer. I have 3 Years of experience do many clients projects.  Now we are 3 friends working together, as a group. You can also check my personal portfolio site <br>
+                    ------ thankyou.</p>
+                <div class="social__icons">
+                    <a href="https://www.facebook.com/md.tanzil.96155669/"><i class="uil uil-facebook-f team__icons"></i></a>
+                    <a href="https://www.linkedin.com/in/md-tanzil-252451200/"><i class="uil uil-linkedin-alt team__icons"></i></a>
+                    <a href="https://github.com/tanzilmia"><i class="uil uil-github team__icons"></i></a>
+                    <a href="https://www.instagram.com/mia.tanzil/"><i class="uil uil-instagram team__icons"></i></a>
+                </div>
+            </div>
+            <!-- team member 3 -->
+            <div class="testimonial__content swiper-slide">
+                <div class="testimonial__data">
+                    <div class="testimonial__header">
+                        <img src="img/testimonial3.jpg" alt="" class="testimonial__img">
+                        <div>
+                            <h3 class="testimonial__name">Rakib Hassan</h3>
+                            <span class="testimonial__client">
+                                Frontend Developer
+                            </span>
+
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+                <p class="testimonial__description">Hi, I'm Rakib Hassan a Frontend developer. and also a UI / UX Designer. I have 3 Years of experience do many clients projects.  Now we are 3 friends working together, as a group. You can also check my personal portfolio site <br>
+                    ------ thankyou.</p>
+                <div class="social__icons">
+                    <a href="https://www.facebook.com/profile.php?id=100009745870442"><i class="uil uil-facebook-f team__icons"></i></a>
+                    <a href="#"><i class="uil uil-globe team__icons"></i></a>
+                    <a href="#"><i class="uil uil-github team__icons"></i></a>
+                    <a href="#"><i class="uil uil-instagram team__icons"></i></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="swiper-pagination swiper-pagination-testimonial"></div>
+    </div>
+    
+</section>
+
+
+<!-- ============contact section========== -->
+ <section class="contact section" id="contact">
+     <h2 class="section__title">Contact Me</h2>
+     <span class="section__subtitle">Get In Touch</span>
+     <div class="contact__container container gird">
+         <div class="contact__me">
+             <div class="contact__information">
+                <i class="uil uil-phone contact__icon"></i>
+                <div>
+                    <h3 class="contact__title">Call Me</h3>
+                    <span class="contact__subtitle">
+                        01303-443798
+                    </span>
+                </div>
+             </div>
+
+             <div class="contact__information">
+                <i class="uil uil-envelope contact__icon"></i>
+               
+                <div>
+                    <h3 class="contact__title">Email</h3>
+                    <span class="contact__subtitle">
+                        tanzilmia321@gmail.com
+                    </span>
+                </div>
+             </div>
+             <div class="contact__information">
+                <i class="uil uil-map-marker contact__icon"></i>
+                <div>
+                    <h3 class="contact__title">Location</h3>
+                    <span class="contact__subtitle">
+                        Tangail -(1900) Bilmuril
+                    </span>
+                </div>
+             </div>
+         </div>
+
+
+
+         <div>
+            <form action="" class="contact__form grid">
+                <div class="contact__inputs grid">
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Name</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                       <label for="" class="contact__label">Email</label>
+                       <input type="email" class="contact__input">
+                   </div>
+                </div>
+                <div class="contact__content">
+                   <label for="" class="contact__label">Project</label>
+                   <input type="text" class="contact__input">
+               </div>
+               <div class="contact__content">
+                   <label for="" class="contact__label">Message</label>
+                   <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+               </div>
+               <div>
+                  
+                   <a href="#" class="button button--flex">
+                       Send Message
+                       <i class="uil uil-message button__icons"></i>
+                   </a>
+               </div>
+            </form>
+         </div>
+     </div>
+ </section>
+
+
+ <!-- ============footer section =========== -->
+
+
+ <footer class="footer">
+     <div class="footer__bg">
+         <div class="footer__container container grid">
+             <div>
+                 <h1 class="footer__title">Md Tanzil</h1>
+                 <span class="footer__subtitle">Frontend developer</span>
+             </div>
+             <ul class="footaer__links">
+                 <li>
+                     <a href="#services" class="footer__link">Services</a>
+                 </li>
+                 <li>
+                    <a href="#portfolio" class="footer__link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer__link">Contact</a>
+                </li>
+             </ul>
+             <div class="footer__socials">
+                 <a href="https://www.facebook.com/md.tanzil.96155669/" class="footer__social" target="_blank">
+                    <i class="uil uil-facebook-f"></i>
+                 </a>
+                 <a href="https://github.com/tanzilmia" class="footer__social" target="_blank">
+                    <i class="uil uil-github"></i>
+                </a>
+                <a href="https://www.instagram.com/mia.tanzil/" class="footer__social" target="_blank">
+                    <i class="uil uil-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/md-tanzil-252451200/" class="footer__social" target="_blank">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+             </div>
+         </div>
+         <p class="footer__coppy">&#169; Tanzil. All right - reserved</p>
+     </div>
+ </footer>
+
+ <!-- ===========scroll top=========== -->
+
+ <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+ </a>
+   <script src="swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
