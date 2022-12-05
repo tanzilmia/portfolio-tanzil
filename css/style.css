@@ -554,20 +554,30 @@ img{
     background:linear-gradient(to right, rgb(160, 245, 210),rgb(85, 85, 243));
 }
 .skills__html{
- width: 70%;
+ width: 80%;
 }
 .skills__css{
 width: 80%;
 }
 .skills__js{
-width: 50%;
+width: 70%;
 }
 .skills__react{
- width: 75%;
+ width: 65%;
 }
-.skills__jquery{
-    width: 85%;
+.skills__Node{
+ width: 25%;
 }
+.skills__Express{
+ width: 35%;
+}
+.skills__bootstrap{
+ width: 80%;
+}
+.skills__tailwind{
+ width: 85%;
+}
+
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs{
     display: flex;
@@ -893,8 +903,14 @@ width: 50%;
     border: none;
     outline: none;
     padding: .25rem .5rem .5rem 0;
+    
 
 
+}
+
+.button{
+    cursor: pointer;
+    border: none;
 }
 /*==================== FOOTER ====================*/
 .footer{

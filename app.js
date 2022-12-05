@@ -161,6 +161,26 @@ themeButton.addEventListener('click',() =>{
 })
 
 
+// sheet script
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzWgFzwW-L0C6yWKRsyUu--fBFzqNquOzSla4RhP9nAC7j5eHogJH9TH2lQ0ELcImmB/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById('mgs')
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+      msg.innerHTML = "Send SuccessFully"
+      setTimeout(() => {
+        msg.innerHTML = ""
+      }, 2000)
+
+      form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+
+
 
 
 
