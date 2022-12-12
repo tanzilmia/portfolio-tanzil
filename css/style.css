@@ -151,6 +151,9 @@
     --scroll-bar-color:hsl(var(--hue-color),12%,48%);
     --scroll-thumb-color:hsl(var(--hue-color),12%,36%);
  }
+ .details_img img{
+    height: 400px;
+ }
 
 /*========== Button Dark/Light ==========*/
 .nav_btns{
@@ -301,6 +304,9 @@ img{
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
 }
+.details_img img{
+    height: 400px;
+}
 .nav__link{
     display: flex;
     flex-direction: column;
@@ -311,6 +317,9 @@ img{
 }
 .nav__link:hover{
     color:var(--first-color-alt)
+}
+.details_img img{
+    height: 400px;
 }
 .nav__icon{
     font-size: 1.2rem;
@@ -637,7 +646,7 @@ width: 70%;
 
 .services__container{
     gap: 1;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 .services__content{
     position: relative;
@@ -1011,6 +1020,9 @@ width: 70%;
         text-align: center;
         
     }
+    .details_img img{
+        height: 300px;
+    }
     .nav__menu{
         padding: 2rem .25rem 4rem;
     }
@@ -1065,6 +1077,9 @@ width: 70%;
         text-align: center;
         
     }
+    .details_img img{
+        height: 350px;
+    }
     .home__data{
         grid-column: initial;
     }
@@ -1118,6 +1133,9 @@ width: 70%;
     font-size: 13px;
     text-align: center;
     
+}
+.details_img img{
+    height: 400px;
 }
  body{
      margin: 0;
@@ -1265,6 +1283,9 @@ display: none;
     text-align: center;
     
 }
+.details_img img{
+    height: 400px;
+}
    .project__container{
        position: relative;
        height: 250px;
@@ -1286,7 +1307,7 @@ display: none;
        transform: translate(-6rem);
    }
    .services__container{
-       grid-template-columns: repeat(3, 238px);
+       grid-template-columns: repeat(3, 350px);
    }
    .portfolio__content{
        column-gap: 5rem;
